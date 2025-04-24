@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="16dp"
+    tools:context=".MainActivity">
+
+    <!-- AlertDialog -->
+    <Button
+        android:id="@+id/btnAlertDialog"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="AlertDialog"
+        android:layout_marginBottom="16dp"/>
+
+    <!-- DatePickerDialog -->
+    <Button
+        android:id="@+id/btnDatePicker"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="DatePickerDialog"
+        android:layout_marginBottom="16dp"/>
+
+    <!-- TimePickerDialog -->
+    <Button
+        android:id="@+id/btnTimePicker"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TimePickerDialog"
+        android:layout_marginBottom="16dp"/>
+
+    <!-- ProgressDialog -->
+    <Button
+        android:id="@+id/btnProgressDialog"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ProgressDialog"
+        android:layout_marginBottom="16dp"/>
+
+    <!-- Snackbar -->
+    <Button
+        android:id="@+id/btnSnackbar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Snackbar"/>
+
+</LinearLayout>
