@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:id="@+id/buttonsLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_horizontal"
+        android:layout_centerInParent="true">
+
+        <Button
+            android:id="@+id/btnWhoAmI"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="Кто я?"
+            android:layout_weight="1"
+            android:layout_marginEnd="8dp"/>
+
+        <Button
+            android:id="@+id/btnItIsNotMe"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="Это не я"
+            android:layout_weight="1"
+            android:layout_marginStart="8dp"/>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tvOut"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Результат будет здесь"
+        android:layout_below="@+id/buttonsLayout"
+        android:layout_marginTop="16dp"/>
+
+    <CheckBox
+        android:id="@+id/checkBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Состояние CheckBox"
+        android:layout_below="@+id/tvOut"
+        android:layout_centerHorizontal="true"/>
+</RelativeLayout>

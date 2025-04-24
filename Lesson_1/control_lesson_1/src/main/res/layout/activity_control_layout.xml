@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <!-- Фото контакта -->
+        <ImageView
+            android:id="@+id/contact_image"
+            android:layout_width="380dp"
+            android:layout_height="192dp"
+            android:src="@drawable/cheshir" />
+
+        <!-- Имя контакта -->
+        <TextView
+            android:id="@+id/contact_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="16dp"
+            android:text="Ivlev Daniil"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <!-- Номер телефона -->
+        <TextView
+            android:id="@+id/contact_phone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="8dp"
+            android:text="+7 (999) 999-999-9"
+            android:textSize="18sp" />
+
+        <!-- Заголовок отчета -->
+        <TextView
+            android:id="@+id/report_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:paddingTop="32dp"
+            android:text="Отчет о выполнении задания" />
+
+        <!-- Описание отчета -->
+        <TextView
+            android:id="@+id/report_description"
+            android:layout_width="match_parent"
+            android:layout_height="36dp"
+            android:paddingTop="8dp"
+            android:text="Lesson_1"
+            android:textSize="16sp" />
+
+        <!-- GitHub -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/report_github"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:paddingTop="8dp"
+                android:text="github:"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/report_github_url"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:autoLink="web"
+                android:paddingTop="8dp"
+                android:text="https://github.com/Miphos/RMKABI_AS.git"
+                android:textSize="16sp" />
+        </LinearLayout>
+
+        <!-- Горизонтальные блоки -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingTop="16dp">
+
+                <TextView
+                    android:id="@+id/label_1"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Группа:"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/value_1"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"
+                    android:text="БИСО-02-20"
+                    android:textSize="16sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingTop="16dp">
+
+                <TextView
+                    android:id="@+id/label_2"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Студент:"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/value_2"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"
+                    android:text="Ивлев Даниил"
+                    android:textSize="16sp" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <!-- Кнопка "Ready" -->
+        <Button
+            android:id="@+id/button_ready"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="32dp"
+            android:text="Ready" />
+    </LinearLayout>
+</ScrollView>
