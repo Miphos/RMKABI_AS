@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:fitsSystemWindows="true"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:padding="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="start">
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Получить IP и погоду" />
+
+        <TextView android:id="@+id/textViewIp"
+            android:text="IP: "
+            style="@style/TextStyle"/>
+
+        <TextView android:id="@+id/textViewCity"
+            android:text="Город: "
+            style="@style/TextStyle"/>
+
+        <TextView android:id="@+id/textViewRegion"
+            android:text="Регион: "
+            style="@style/TextStyle"/>
+
+        <TextView android:id="@+id/textViewCoords"
+            android:text="Координаты: "
+            style="@style/TextStyle"/>
+
+        <TextView android:id="@+id/textViewTemp"
+            android:text="Температура: "
+            style="@style/TextStyle"/>
+
+        <TextView android:id="@+id/textViewWind"
+            android:text="Скорость ветра: "
+            style="@style/TextStyle"/>
+
+    </LinearLayout>
+</ScrollView>
