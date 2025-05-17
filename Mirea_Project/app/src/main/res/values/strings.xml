@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Mirea Project</string>
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="menu_data">Data</string>
+    <string name="menu_webview">WebView</string>
+
+    <string name="nav_header_desc">Навигационное меню</string>
+    <string name="nav_header_title">Mirea Project</string>
+    <string name="nav_header_subtitle">ru.mirea.ivlevdaniil</string>
+    <string name="action_settings">Настройки</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

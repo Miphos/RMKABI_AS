@@ -1,0 +1,33 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="32dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true">
+
+    <ImageView
+        android:layout_width="268dp"
+        android:layout_height="164dp"
+        android:layout_marginBottom="24dp"
+        android:contentDescription="Логотип"
+        android:src="@drawable/cheshir" />
+
+    <TextView
+        android:id="@+id/greetingText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Добро пожаловать"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:textColor="@android:color/black" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="\nЭто приложение демонстрирует работу с:\n\n- Камерой\n- Галереей\n- Сетевыми запросами\n- Firebase\n- Датчиками и файлами"
+        android:textAlignment="center"
+        android:textColor="#444444"
+        android:layout_marginTop="16dp" />
+</LinearLayout>

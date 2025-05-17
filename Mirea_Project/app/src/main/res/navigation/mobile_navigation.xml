@@ -1,0 +1,85 @@
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="ru.mirea.ivlevdaniil.mirea_project.ui.home.HomeFragment"
+        android:label="Home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_gallery"
+        android:name="ru.mirea.ivlevdaniil.mirea_project.ui.gallery.GalleryFragment"
+        android:label="Галерея"
+        tools:layout="@layout/fragment_gallery" />
+
+    <fragment
+        android:id="@+id/nav_slideshow"
+        android:name="ru.mirea.ivlevdaniil.mirea_project.ui.slideshow.SlideshowFragment"
+        android:label="Slideshow"
+        tools:layout="@layout/fragment_slideshow" />
+
+    <fragment
+        android:id="@+id/nav_data"
+        android:name="ru.mirea.ivlevdaniil.mirea_project.ui.data.DataFragment"
+        android:label="Data"
+        tools:layout="@layout/fragment_data" />
+
+    <fragment
+        android:id="@+id/nav_webview"
+        android:name="ru.mirea.ivlevdaniil.mirea_project.ui.webview.WebViewFragment"
+        android:label="WebView"
+        tools:layout="@layout/fragment_web_view" />
+
+    <fragment
+        android:id="@+id/nav_background"
+        android:name="ru.mirea.ivlevdaniil.mirea_project.ui.background.BackgroundFragment"
+        android:label="Фоновая задача"
+        tools:layout="@layout/fragment_background" />
+
+    <fragment
+        android:id="@+id/nav_sensors"
+        android:name="ru.mirea.ivlevdaniil.mirea_project.ui.sensors.SensorsFragment"
+        android:label="Компас (датчики)"
+        tools:layout="@layout/fragment_sensors" />
+
+    <fragment
+        android:id="@+id/nav_camera"
+        android:name="ru.mirea.ivlevdaniil.mirea_project.ui.camera.CameraFragment"
+        android:label="Камера"
+        tools:layout="@layout/fragment_camera" />
+
+    <fragment
+        android:id="@+id/nav_microphone"
+        android:name="ru.mirea.ivlevdaniil.mirea_project.ui.microphone.MicrophoneFragment"
+        android:label="Микрофон"
+        tools:layout="@layout/fragment_microphone" />
+
+    <fragment
+        android:id="@+id/nav_profile"
+        android:name="ru.mirea.ivlevdaniil.mirea_project.ui.profile.ProfileFragment"
+        android:label="Профиль"
+        tools:layout="@layout/fragment_profile" />
+
+    <fragment
+        android:id="@+id/nav_file_work"
+        android:name="ru.mirea.ivlevdaniil.mirea_project.ui.files.FileWorkFragment"
+        android:label="Работа с файлами"
+        tools:layout="@layout/fragment_file_work" />
+
+    <!-- Специальный маршрут: выбор фото -->
+    <fragment
+        android:id="@+id/nav_gallery_select"
+        android:name="ru.mirea.ivlevdaniil.mirea_project.ui.gallery.GalleryFragment"
+        android:label="Выбор изображения"
+        tools:layout="@layout/fragment_gallery" />
+
+    <fragment
+        android:id="@+id/nav_network"
+        android:name="ru.mirea.ivlevdaniil.mirea_project.ui.firebase.NetworkFragment"
+        android:label="Сетевой фрагмент"
+        tools:layout="@layout/fragment_network"/>
+</navigation>
